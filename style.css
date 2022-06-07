@@ -43,14 +43,13 @@ div {
 
 .sup h1 {
   color: cyan;
+  font-size: 2rem;
 
   padding-bottom: 2.4rem;
-  font-size: 2rem;
 }
 
 .sup .p1 {
   font-size: 1.5rem;
-
   color: var(--bright-yellow);
 }
 
@@ -111,8 +110,8 @@ div {
 
 .inf .esq button {
   font-size: 1.6rem;
-
   color: var(--white);
+  
   background: var(--bright-yellow);
 
   width: 100%;
