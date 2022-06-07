@@ -22,6 +22,7 @@ html {
 
 body {
   padding: 3.2rem;
+
   background: var(--light-gray);
 }
 
@@ -36,28 +37,32 @@ div {
 
 .sup {
   background: var(--white);
+
   border-radius: 0.8rem 0.8rem 0 0;
 }
 
 .sup h1 {
-  font-size: 2rem;
   color: cyan;
+
   padding-bottom: 2.4rem;
+  font-size: 2rem;
 }
 
 .sup .p1 {
   font-size: 1.5rem;
+
   color: var(--bright-yellow);
 }
 
 .sup p {
-  line-height: 2rem;
   padding-bottom: 1.6rem;
+  line-height: 2rem;
 }
 
 .sup span {
-  font-size: 1.4rem;
   color: var(--grayish-blue);
+
+  font-size: 1.4rem;
 }
 
 .inf {
@@ -66,12 +71,14 @@ div {
 
 .inf .esq {
   background: var(--cyan);
+
   width: 100%;
 }
 
 .inf .esq h2 {
-  font-size: 1.8rem;
   color: var(--white);
+
+  font-size: 1.8rem;
   margin-bottom: 1.8rem;
 }
 
@@ -83,9 +90,11 @@ div {
 
 .inf .esq .p2 {
   font-size: 3.2rem;
-  color: var(--white);
-  margin-bottom: 0.9rem;
   font-weight: 700;
+
+  color: var(--white);
+
+  margin-bottom: 0.9rem;
 }
 
 .inf .esq span {
@@ -95,23 +104,29 @@ div {
 
 .inf .esq .out {
   color: var(--white);
+
   margin-top: 0.4rem;
   padding-bottom: 2.6rem;
 }
 
 .inf .esq button {
   font-size: 1.6rem;
+
   color: var(--white);
   background: var(--bright-yellow);
+
   width: 100%;
   padding: 1.5rem;
+
   border-radius: 0.5rem;
   border: none;
+
   cursor: pointer;
 }
 
 .inf .dir {
   background: var(--bright-cyan);
+
   border-radius: 0 0 0.8rem 0.8rem;
   padding: 2.4rem;
 }
@@ -119,6 +134,7 @@ div {
 .inf .dir h2 {
   font-size: 1.8rem;
   color: var(--white);
+
   padding-bottom: 1.8rem;
 }
 
@@ -142,12 +158,14 @@ div {
   .sup h1 {
     font-size: 2.4rem;
     color: cyan;
+
     padding-bottom: 2.4rem;
   }
 
   .sup .p1 {
     font-size: 1.8rem;
     color: var(--bright-yellow);
+
     padding-bottom: 1.1rem;
   }
 
@@ -164,10 +182,11 @@ div {
   .inf {
     display: flex;
     justify-content: center;
+
     border-radius: 0 0 0.8rem 0.8rem;
   }
 
-  .esq {
+  .inf .esq {
     border-radius: 0 0 0.8rem 0.8rem;
   }
 
@@ -182,12 +201,14 @@ div {
 
   .inf .esq .out {
     color: var(--white);
+
     margin-top: 0.4rem;
     padding-bottom: 2.6rem;
   }
 
-  .dir {
+  .inf .dir {
     background: var(--bright-cyan);
+
     padding: 2.4rem;
     width: 100%;
     border-radius: 0 0 0.8rem 0;
