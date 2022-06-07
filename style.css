@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+:root {
+  --cyan: #2ab2af;
+  --bright-yellow: #c0df34;
+  --light-gray: #e5eff5;
+  --grayish-blue: #98a6bd;
+  --bright-cyan: #4abfbd;
+  --white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3.2rem;
+  background: var(--light-gray);
+}
+
+main {
+  font-size: 1.6rem;
+  max-width: 63.5rem;
+}
+
+div {
+  padding: 2.4rem;
+}
+
+.sup {
+  background: var(--white);
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.sup h1 {
+  font-size: 2rem;
+  color: cyan;
+  padding-bottom: 2.4rem;
+}
+
+.sup .p1 {
+  font-size: 1.5rem;
+  color: var(--bright-yellow);
+}
+
+.sup p {
+  line-height: 2rem;
+  padding-bottom: 1.6rem;
+}
+
+.sup span {
+  font-size: 1.4rem;
+  color: var(--grayish-blue);
+}
+
+.inf {
+  background: var(--cyan);
+}
+
+.inf .esq {
+  background: var(--cyan);
+  width: 100%;
+}
+
+.inf .esq h2 {
+  font-size: 1.8rem;
+  color: var(--white);
+  margin-bottom: 1.8rem;
+}
+
+.inf .esq section {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.inf .esq .p2 {
+  font-size: 3.2rem;
+  color: var(--white);
+  margin-bottom: 0.9rem;
+  font-weight: 700;
+}
+
+.inf .esq span {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.inf .esq .out {
+  color: var(--white);
+  margin-top: 0.4rem;
+  padding-bottom: 2.6rem;
+}
+
+.inf .esq button {
+  font-size: 1.6rem;
+  color: var(--white);
+  background: var(--bright-yellow);
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.inf .dir {
+  background: var(--bright-cyan);
+  border-radius: 0 0 0.8rem 0.8rem;
+  padding: 2.4rem;
+}
+
+.inf .dir h2 {
+  font-size: 1.8rem;
+  color: var(--white);
+  padding-bottom: 1.8rem;
+}
+
+.inf .dir p {
+  font-size: 1.4rem;
+  color: var(--white);
+  opacity: 0.75;
+  line-height: 2rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  div {
+    padding: 4rem;
+  }
+
+  .sup h1 {
+    font-size: 2.4rem;
+    color: cyan;
+    padding-bottom: 2.4rem;
+  }
+
+  .sup .p1 {
+    font-size: 1.8rem;
+    color: var(--bright-yellow);
+    padding-bottom: 1.1rem;
+  }
+
+  .sup p {
+    line-height: 2.6rem;
+    padding-bottom: 4rem;
+  }
+
+  .sup span {
+    font-size: 1.6rem;
+    color: var(--grayish-blue);
+  }
+
+  .inf {
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+
+  .esq {
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+
+  .inf .esq h2 {
+    font-size: 1.8rem;
+  }
+
+  .inf .esq .p2 {
+    font-size: 3.2rem;
+    color: var(--white);
+  }
+
+  .inf .esq .out {
+    color: var(--white);
+    margin-top: 0.4rem;
+    padding-bottom: 2.6rem;
+  }
+
+  .dir {
+    background: var(--bright-cyan);
+    padding: 2.4rem;
+    width: 100%;
+    border-radius: 0 0 0.8rem 0;
+  }
+
+  .inf .dir h2 {
+    padding-top: 1.3rem;
+  }
+}
